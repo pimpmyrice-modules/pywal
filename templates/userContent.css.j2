@@ -1,13 +1,14 @@
 html[data-darkreader-mode] body a {
-  color: {{panel.fg.rgb}} !important;
+  color: {{normal.fg.rgb}} !important;
 }
 
 @-moz-document regexp('^(?!http).*') {
   :root>* {
-    background: {{panel.bg.rgb}} !important;
+    background: {{normal.bg.rgb}} !important;
   }
 }
 
 /* #urlbar-input-container:-moz-lwtheme, .urlbarView:-moz-lwtheme {
   background-color: color-mix(in srgb, var(--lwt-accent-color) 87%, black);
 } */
+
