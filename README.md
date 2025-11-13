@@ -5,5 +5,5 @@
 ## Set up
 
 ```bash
-pimp clone module pimp://pywal
+pimp clone module pywal
 ```
